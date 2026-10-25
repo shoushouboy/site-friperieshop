@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friperie Élégance - Lomé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- EN-TÊTE -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Friperie Élégance</h1>
+      <nav class="nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- BANNIÈRE -->
+  <section id="accueil" class="hero">
+    <div class="overlay">
+      <h2>Friperie Élégance</h2>
+      <p>Vêtements de qualité à petits prix — Lomé, livraison partout</p>
+      <a href="https://wa.me/22891173244" class="btn">Commander sur WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Pourquoi nous choisir ?</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>👕 Vêtements variés</h3>
+          <p>Hommes, femmes et enfants. Des articles sélectionnés avec soin.</p>
+        </div>
+        <div class="card">
+          <h3>💰 À partir de 3 000 FCFA</h3>
+          <p>Des prix accessibles pour toutes les bourses. Qualité garantie.</p>
+        </div>
+        <div class="card">
+          <h3>🚚 Livraison partout</h3>
+          <p>Nous livrons dans tout Lomé et partout au Togo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie" class="galerie">
+    <div class="container">
+      <h2>Nos articles</h2>
+      <div class="photos">
+        <img src="photo1.jpg" alt="Vêtement femme">
+        <img src="photo2.jpg" alt="Vêtement homme">
+        <img src="photo3.jpg" alt="Vêtement enfant">
+        <img src="photo4.jpg" alt="Accessoires">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contactez-nous</h2>
+      <p>📞 +228 91 17 32 44</p>
+      <p>📍 Lomé, Togo</p>
+      <p>🚚 Livraison partout</p>
+      <p>💵 Prix à partir de 3 000 FCFA</p>
+      <a href="https://wa.me/22891173244" class="btn">Écrire sur WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Friperie Élégance — Lomé, Togo</p>
+  </footer>
+
+</body>
+</html>
